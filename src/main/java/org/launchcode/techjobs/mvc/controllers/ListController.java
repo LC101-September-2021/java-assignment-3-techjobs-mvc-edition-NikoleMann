@@ -46,7 +46,6 @@ public class ListController {
         model.addAttribute("locations", JobData.getAllLocations());
         model.addAttribute("positions", JobData.getAllPositionTypes());
         model.addAttribute("skills", JobData.getAllCoreCompetency());
-//        model.addAttribute("all", JobData.findAll());
 
         return "list";
     }
